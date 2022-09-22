@@ -1,0 +1,12 @@
+import random
+n = int (input())
+n_min = int (input())
+n_max = int (input())
+Ist_random = []
+for i8 in range (n):
+  Ist_random +=[random.uniform(-10,10)]
+c=0
+for i in range (n): 
+if Ist_random[i] >= n_min and Ist_random[i] < n_max:
+c+=1
+print(Inst_random, c)
